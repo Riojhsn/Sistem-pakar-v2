@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% block content %}
+<h2>Hasil Diagnosa</h2>
+<p>Gejala yang dipilih: {{ gejala|join(', ') }}</p>
+<ul>
+    {% for item in hasil %}
+    <li>
+        <strong>{{ item.penyakit }}</strong><br>
+        Keyakinan: {{ item.keyakinan }}%<br>
+        Gejala Cocok: {{ item.gejala_cocok|join(', ') }}
+    </li>
+    {% else %}
+    <li>Tidak ada penyakit yang cocok.</li>
+    {% endfor %}
+</ul>
+<a href="/">Kembali</a>
+{% endblock %}

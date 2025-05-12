@@ -1,0 +1,98 @@
+[
+    {
+        "nama": "CONTRACT ULCERS",
+        "gejala": ["nyeri saat bicara atau menelan", "suara serak"]
+    },
+    {
+        "nama": "ABAES PARAFARINGEAL",
+        "gejala": ["nyeri saat bicara atau menelan", "leher bengkak"]
+    },
+    {
+        "nama": "ABAES PERITONAILER",
+        "gejala": ["demam", "sakit kepala", "nyeri tenggorokan", "pembengkakan kelenjar getah bening", "suara serak", "air liur menetes"]
+    },
+    {
+        "nama": "BAROTITIS MEDIA",
+        "gejala": ["sakit kepala", "nyeri telinga"]
+    },
+    {
+        "nama": "DEVIASI SEPTUM",
+        "gejala": ["demam", "hidung tersumbat", "nyeri telinga", "pendarahan hidung", "infeksi sinus", "nyeri wajah"]
+    },
+    {
+        "nama": "FARINGITIS",
+        "gejala": ["demam", "nyeri saat bicara atau menelan", "nyeri tenggorokan", "nyeri leher", "pembengkakan kelenjar getah bening"]
+    },
+    {
+        "nama": "KANKER LARING",
+        "gejala": ["nyeri saat bicara atau menelan", "batuk", "nyeri tenggorokan", "nyeri leher", "suara serak", "berat badan turun", "bunyi nafas abnormal"]
+    },
+    {
+        "nama": "KANKER LEHER DAN KEPALA",
+        "gejala": ["nyeri saat bicara atau menelan", "ada benjolan di leher", "pendarahan hidung", "ada yang tumbuh di mulut", "perubahan kulit", "perubahan suara"]
+    },
+    {
+        "nama": "KANKER LEHER METASTATIK",
+        "gejala": ["ada benjolan di leher"]
+    },
+    {
+        "nama": "KANKER NASOFARING",
+        "gejala": ["hidung tersumbat", "pendarahan hidung"]
+    },
+    {
+        "nama": "KANKER TONSIL",
+        "gejala": ["nyeri tenggorokan", "ada benjolan di leher"]
+    },
+    {
+        "nama": "LARINGITIS",
+        "gejala": ["demam", "nyeri saat bicara atau menelan", "pembengkakan kelenjar getah bening", "leher bengkak", "tenggorokan gatal"]
+    },
+    {
+        "nama": "NEURONITIS VESTIBULARIS",
+        "gejala": ["mual dan muntah", "bola mata bergerak tanpa sadar"]
+    },
+    {
+        "nama": "OSTEOSKLEROSIS",
+        "gejala": ["tuli", "telinga berdenging"]
+    },
+    {
+        "nama": "OTITIS MEDIA AKUT",
+        "gejala": ["demam", "nyeri telinga", "mual dan muntah", "radang gendang telinga"]
+    },
+    {
+        "nama": "MENIERE",
+        "gejala": ["nyeri telinga", "mual dan muntah", "serangan vertigo", "telinga terasa penuh"]
+    },
+    {
+        "nama": "TONSILITIS",
+        "gejala": ["demam", "sakit kepala", "nyeri saat bicara atau menelan", "batuk", "nyeri tenggorokan", "mual dan muntah"]
+    },
+    {
+        "nama": "TUMOR SYARAF PENDENGARAN",
+        "gejala": ["sakit kepala", "tuli", "tubuh tak seimbang"]
+    },
+    {
+        "nama": "VERTIGO POSTULAR",
+        "gejala": ["bola mata bergerak tanpa sadar"]
+    },
+    {
+        "nama": "SINUSITIS MAKSILARIS",
+        "gejala": ["demam", "sakit kepala", "batuk", "hidung tersumbat", "hidung meler", "letih dan lesu", "selaput lendir merah dan bengkak", "nyeri pipi di bawah mata", "sakit gigi"]
+    },
+    {
+        "nama": "SINUSITIS FRONTALIS",
+        "gejala": ["demam", "sakit kepala", "batuk", "hidung tersumbat", "hidung meler", "letih dan lesu", "selaput lendir merah dan bengkak", "dahi sakit"]
+    },
+    {
+        "nama": "SINUSITIS ETMOIDALIS",
+        "gejala": ["demam", "sakit kepala", "batuk", "hidung tersumbat", "hidung meler", "letih dan lesu", "selaput lendir merah dan bengkak", "dahi sakit", "nyeri antara mata", "nyeri pinggir hidung"]
+    },
+    {
+        "nama": "SINUSITIS SFENOIDALIS",
+        "gejala": ["demam", "sakit kepala", "batuk", "hidung tersumbat", "nyeri telinga", "hidung meler", "letih dan lesu", "selaput lendir merah dan bengkak", "ada benjolan di leher"]
+    },
+    {
+        "nama": "PERUT",
+        "gejala": ["demam", "sakit kepala", "nyeri saat bicara atau menelan", "batuk"]
+    }
+]

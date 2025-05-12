@@ -1,0 +1,52 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h2>🔍 Pilih Metode Diagnosa</h2>
+
+<!-- Pilihan Mode -->
+<div style="margin-bottom: 20px;">
+  <button onclick="showManual()">📝 Input Manual</button>
+  <button onclick="showChatbot()">💬 Chatbot Pintar</button>
+</div>
+
+<!-- Form Manual -->
+<div id="manualForm">
+  <form method="post" action="/hasil">
+    <p>Pilih gejala yang kamu alami:</p>
+    {% for g in semua_gejala %}
+      <label><input type="checkbox" name="gejala" value="{{ g }}"> {{ g }}</label><br>
+    {% endfor %}
+    <br>
+    <button type="submit">Diagnosa</button>
+  </form>
+</div>
+
+<!-- Chatbot Pintar -->
+<div id="chatbotSection" style="display: none;">
+  <h3>Konsultasi via Chatbot Pintar</h3>
+  <div id="chatbox" style="height: 300px; overflow-y: auto; border: 1px solid #ccc; padding: 10px; margin-bottom: 10px; background: white;"></div>
+  <input type="text" id="userinput" placeholder="Ketik ya / tidak lalu tekan Enter" style="width: 100%; padding: 10px;">
+  <button onclick="startSmartChat()" style="margin-top: 10px;">Mulai Konsultasi</button>
+</div>
+
+<!-- Script -->
+<script src="{{ url_for('static', filename='chatbot.js') }}"></script>
+<script>
+  function showManual() {
+    document.getElementById('manualForm').style.display = 'block';
+    document.getElementById('chatbotSection').style.display = 'none';
+  }
+
+  function showChatbot() {
+    document.getElementById('manualForm').style.display = 'none';
+    document.getElementById('chatbotSection').style.display = 'block';
+  }
+
+  document.getElementById('userinput').addEventListener('keypress', function(e) {
+    if (e.key === 'Enter') {
+      handleUserInput(this.value);
+      this.value = '';
+    }
+  });
+</script>
+{% endblock %}
