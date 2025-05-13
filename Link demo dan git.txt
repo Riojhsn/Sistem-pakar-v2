@@ -1,0 +1,4 @@
+Link demo app : Riojhsn.pythonanywhere.com
+
+link git : 
+https://github.com/Riojhsn/Sistem-pakar-v2.git
