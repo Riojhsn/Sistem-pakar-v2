@@ -4,7 +4,13 @@ import json
 app = Flask(__name__)
 
 # Baca file JSON sebagai basis pengetahuan
-with open('data/basis_pengetahuan.json', 'r', encoding='utf-8') as f:
+import os
+
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+file_path = os.path.join(BASE_DIR, 'data', 'basis_pengetahuan.json')
+
+with open(file_path, 'r', encoding='utf-8') as f:
+
     knowledge_base = json.load(f)
 
 # Kumpulkan semua gejala unik
